@@ -1,0 +1,14 @@
+package hiding;
+
+public class BirthDayTest {
+
+	public static void main(String[] args) {
+		
+		BirthDay day = new BirthDay();
+		
+		day.year = 2022;
+		day.month = 1;
+		day.day = 1;
+	}
+
+}

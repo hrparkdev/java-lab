@@ -1,0 +1,32 @@
+package hiding;
+
+public class BirthDay {
+
+	private int year;
+	private int month;
+	private int day;
+	
+	public void getYear() {
+		return year;
+	}
+	
+	public int setYear(int year) {
+		this.year = year;
+	}
+	
+	public void getMonth() {
+		return month;
+	}
+	
+	public int setMonth(int month) {
+		this.month = month;
+	}
+	
+	public void getDay() {
+		return day;
+	}
+	
+	public int setDay(int day) {
+		this.day = day;
+	}
+}
